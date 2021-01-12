@@ -1,0 +1,26 @@
+<!-- <div class="boxheader">
+    <div class=""> الاستماع بالجودة العادية </div>
+    <div>
+        <audio class="livebox" controls autoplay="autoplay">
+            <source src="http://www.quran-radio.org:8080/;stream.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+    </div>
+</div> -->
+
+<div class="radio-item col-6">
+    <img class="col-4" [src]="radio.image">
+    <div class="col-8">
+        <h2>{{radio.name}}</h2>
+        <p>{{radio.descr}}</p>
+        <p>{{radio.city}}</p>
+        <div>
+            <audio class="livebox" controls>
+                <source [src]="radio.link" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        
+        </div>
+    </div>
+</div>

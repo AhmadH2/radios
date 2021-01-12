@@ -1,0 +1,13 @@
+.header{
+    height: 50px;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header h1 {
+    color: white;
+    font-size: 20px;
+
+}
