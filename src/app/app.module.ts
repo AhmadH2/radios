@@ -8,6 +8,7 @@ import { CitesListComponent } from './cites-list/cites-list.component';
 import { RadioItemComponent } from './radio-item/radio-item.component';
 import { RadiosListComponent } from './radios-list/radios-list.component';
 import { HttpClientModule } from '@angular/common/http';
+import { RouteReuseStrategy, RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    RouterModule.forRoot([
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -3,5 +3,8 @@
 <p *ngFor="let city of cities">{{city}}</p> -->
 
 <div class="cities-list" row>
-    <button style="margin: 5px;" class="btn btn-primary" *ngFor="let city of cities">{{city}}</button>
+    <!-- <button style="margin: 5px;" class="btn btn-primary" *ngFor="let city of cities">{{city}}</button> -->
+    <a routerLink="radios/{{city}}" routerLinkActive="active" class="btn btn-info" *ngFor="let city of cities">
+        {{city}}
+    </a>
 </div>
