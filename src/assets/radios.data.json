@@ -1,0 +1,67 @@
+    
+[
+    {
+        "name": "Quran",
+        "city": "Nablus",
+        "link": "//www.quran-radio.org:8080/;stream.mp3",
+        "image": "http://www.quran-radio.com/images/logo.gif",
+        "descr": "Quran recitation",
+        "channel": 88.2
+    },
+    {
+        "name": "شبكة الحرية الاعلامية",
+        "city": "Hebron",
+        "link": "http://rs.hadara.ps:8000/;stream.mp3",
+        "image": " //dashboard.hr.ps/storage/settings/June2019/Xkfq5lHWIJNl8j8kCcJw.png",
+        "descr": "News",
+        "channel": 92.7
+    },
+    {
+        "name": "راديو الرابعة",
+        "city": "Hebron",
+        "link": "http://radio.r4fm.ps:8044/;stream.mp3&13202692901&duration=99999&id=scplayer&autostart=true",
+        "image": "http://www.r4fm.ps/ups/logo/4_1_1476614111.png",
+        "descr": "News, Entertainment",
+        "channel": 88.7
+    },
+    {
+        "name": "اذاعة صوت الاقصى",
+        "city": "Gaza",
+        "link": "http://live.atyaf.co:8004/;stream.mp3",
+        "image": "https://mytuner.global.ssl.fastly.net/media/tvos_radios/pfwegy366a7j",
+        "descr": "News, Islamic",
+        "channel": 100.9
+    },
+    {
+        "name": "راديو الفجر",
+        "city": "Tulkarm",
+        "link": "http://rs.hadara.ps:8004/;stream.mp3&13202692901&duration=99999&id=scplayer&autostart=true",
+        "image": "https://alfajertv.com/style/atyaf/assets/images/logo.png",
+        "descr": "News, Entertainment",
+        "channel": 90.4
+    },
+    {
+        "name": "راديو اجيال",
+        "city": "Ramallah",
+        "link": "http://icecast.mada.ps:8095/ajyalnew",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQD2X53eKRC6M0LqNk3agl6U9shW04l6f2K8A&usqp=CAU",
+        "descr": "News, Entertainment",
+        "channel": 103.4
+    },
+    {
+        "name": "راديو باور الشبابي",
+        "city": "Bethlehem",
+        "link": "http://rs.hadara.ps:8044/listen.pls/;listen.pls?sid=1",
+        "image": "https://secureservercdn.net/160.153.138.53/m2d.5fb.myftpupload.com/wp-content/uploads/2020/07/logo-small-1.png",
+        "descr": "Entertainment",
+        "channel": 101.9
+    },
+    {
+        "name": "راديو البلد",
+        "city": "Jenin",
+        "link": "http://live.masterweb-ps.com:8006/;mp3",
+        "image": "https://www.albaladfm.ps/assets/themes/default/images/logo.png",
+        "descr": "News, Entertainment",
+        "channel": 95.6
+    }
+]

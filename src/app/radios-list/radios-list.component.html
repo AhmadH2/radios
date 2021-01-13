@@ -1,7 +1,7 @@
 <div *ngIf="radios.length > 0">
     <app-radio-item *ngFor='let radio of radios' [radio]="radio"></app-radio-item>
 </div>
-<div>
+<div *ngIf='radios.length == 0'>
     <p>No radios available in this city</p>
 </div>
 

@@ -13,12 +13,13 @@ export class CitesListComponent implements OnInit {
   cities: string[];
 
   ngOnInit(): void {
+
     this.radiosService.getCities().subscribe(
-      (data) => {
-        this.cities = data["data"].filter(d => d["country"] == 'State of Palestine').map(d=> d['city']);
-        console.log(JSON.stringify(this.cities[0]));
+      (data:string) => {
+        this.cities = data['Palestine'];
       }
-    );
+    )
+    
   }
 
   
