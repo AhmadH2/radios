@@ -13,30 +13,19 @@ export class RadiosListComponent implements OnInit {
   radios:Radio[] = [];
   city: string;
 
-  constructor(private radiosService:RadiosService, private route:ActivatedRoute, private router: Router) { 
+  constructor(private radiosService:RadiosService, private route:ActivatedRoute) { 
   }
 
   ngOnInit(): void {
 
     this.route.params.subscribe(routeParams => {
       this.city = routeParams.city;
-      console.log('test city ' + this.city)
-      // this.radios = this.radiosService.getRadios().filter(d => d.city == this.city);
-
       this.radiosService.getRadios().subscribe(
         (data:Radio[]) => {
-          console.log(data);
-          this.radios = data.filter(d => d.city==this.city);
+          this.radios = data.filter(d => d.city == this.city);
         }
       );
     });
-
-
-    
-  }
-
-  setCity(city) {
-    this.city = city;
   }
 
 }
